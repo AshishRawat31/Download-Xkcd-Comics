@@ -8,7 +8,7 @@ os.makedirs('xkcd', exist_ok=True) #store comics in ./xkcd
 
 while not url.endswith('#'):
 	#Download the page
-    print('Downloading....')
+    print('Downloading.......')
     res = requests.get(url)
     try:
         res.raise_for_status()
